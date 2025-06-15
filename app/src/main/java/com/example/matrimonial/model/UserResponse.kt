@@ -5,6 +5,7 @@ data class UserResponse(
 )
 
 data class User(
+
     val gender: String,
     val name: Name,
     val location: Location,

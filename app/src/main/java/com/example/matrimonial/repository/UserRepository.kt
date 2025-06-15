@@ -7,6 +7,7 @@ import java.io.IOException
 
 class UserRepository(private val api: ApiService, private val dao: UserDao) {
 
+
     suspend fun getUsers(): List<UserEntity> {
         return try {
             val shouldFail = (0..9).random() < 3 // 30% chance of failure

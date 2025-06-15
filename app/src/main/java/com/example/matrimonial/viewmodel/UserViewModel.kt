@@ -6,6 +6,7 @@ import kotlinx.coroutines.launch
 
 class UserViewModel(private val repository: UserRepository): ViewModel() {
 
+
     private val _users = MutableLiveData<List<UserEntity>>()
     val users: LiveData<List<UserEntity>> = _users
 

@@ -14,6 +14,8 @@ import com.example.matrimonial.viewmodel.UserViewModelFactory
 
 class MainActivity : AppCompatActivity() {
 
+
+
     private lateinit var binding: ActivityMainBinding
     private lateinit var viewModel: UserViewModel
     private lateinit var adapter: UserAdapter

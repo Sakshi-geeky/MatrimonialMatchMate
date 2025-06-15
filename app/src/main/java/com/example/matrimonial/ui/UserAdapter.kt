@@ -79,6 +79,8 @@ import com.example.matrimonial.viewmodel.UserViewModel
 class UserAdapter(private val viewModel: UserViewModel) :
     RecyclerView.Adapter<UserAdapter.UserViewHolder>() {
 
+
+
     private var userList: List<UserEntity> = emptyList()
 
     fun submitList(users: List<UserEntity>) {
